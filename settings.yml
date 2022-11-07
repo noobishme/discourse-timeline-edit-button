@@ -11,7 +11,7 @@ edit_button_enabled:
   client: true
 
 edit_button_label:
-  default: "Jump"
+  default: "Edit Topic"
   client: true
   
 edit_button_title:
