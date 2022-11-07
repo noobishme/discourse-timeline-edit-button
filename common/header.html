@@ -9,7 +9,7 @@
   if(settings.timeline_buttons_enabled){
 
     api.createWidget('timeline-edit-button', {
-      tagName: 'widget-button.btn.btn-default.discourse-timeline-edit-button.no-text.btn-icon',
+      tagName: 'widget-button.btn-flat.discourse-timeline-edit-button.no-text.btn-icon',
       html(attrs, state) {
         return h('span', [iconNode('pencil-alt')] );
       },
@@ -28,7 +28,7 @@
   if (settings.mobile_buttons_enabled){
   
     api.createWidget('mobile-timeline-edit-button', {
-      tagName: 'widget-button.btn.btn-default.popup-menu-button.no-text.btn-icon.discourse-mobile-timeline-edit-button',
+      tagName: 'widget-button.btn-flat.popup-menu-button.no-text.btn-icon.discourse-mobile-timeline-edit-button',
       html(attrs, state) {
         return h('span', [iconNode('pencil-alt')] );
       },
