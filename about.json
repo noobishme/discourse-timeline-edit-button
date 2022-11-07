@@ -1,6 +1,6 @@
 {
-  "name": "discourse-scroll-buttons",
-  "about_url": "https://github.com/ScottMastro/discourse-scroll-buttons",
+  "name": "discourse-timeline-edit-button",
+  "about_url": "https://github.com/noobishme/discourse-timeline-edit-button",
   "component": "true",
   "license_url": "https://github.com/ScottMastro/discourse-scroll-buttons/blob/master/LICENSE"
 }
