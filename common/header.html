@@ -11,7 +11,7 @@
     api.createWidget('timeline-edit-button', {
       tagName: 'widget-button.btn.btn-default.discourse-timeline-edit-button.no-text.btn-icon',
       html(attrs, state) {
-        return h('span', [iconNode('pencil')] );
+        return h('span', [iconNode('pencil-alt')] );
       },
       click() {
         topicController.send('jumpTop');
