@@ -30,7 +30,7 @@
     api.createWidget('mobile-timeline-edit-button', {
       tagName: 'widget-button.btn.btn-default.popup-menu-button.no-text.btn-icon.discourse-mobile-timeline-edit-button',
       html(attrs, state) {
-        return h('span', [iconNode('pencil')] );
+        return h('span', [iconNode('pencil-alt')] );
       },
       click() {
         topicController.send('jumpTop');
