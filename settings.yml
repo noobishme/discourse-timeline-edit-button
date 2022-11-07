@@ -15,6 +15,6 @@ jump_button_label:
   client: true
   
 jump_button_title:
-  default: "jump to the top of this topic"
+  default: "Edit this Topic"
   client: true
   
